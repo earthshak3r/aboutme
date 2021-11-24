@@ -1,3 +1,3 @@
 # Project - CSS playtime
 
-Visit site about me. 😎
+Visit [site](https://earthshak3r.github.io/aboutmecss/) about me. 😎
