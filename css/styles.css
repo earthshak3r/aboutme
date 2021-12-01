@@ -102,7 +102,7 @@ a:hover {
 }
 
 .profile-img {
-    width: 10%;
+    width: 15%;
     /* float: left; 
     margin-right: 30px;*/
 }
@@ -144,4 +144,17 @@ a:hover {
     background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
     background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
     text-decoration: none;
+}
+
+.section--hidden {
+    opacity: 0;
+    transform: translateY(8rem);
+}
+
+.transition {
+    transition: transform 1s, opacity 1s;
+}
+
+.lazy-img {
+    filter: blur(20px);
 }
